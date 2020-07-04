@@ -1,0 +1,32 @@
+
+<% var data = {
+title: "BaseID - Главная",
+author: "Nadsadin"
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<div class="promo">
+    <div class="container">
+        <div class="promo-wrap">
+            <div class="promo-content">
+                <div class="row">
+                    <div class="col-xl-9">
+                        <div class="promo-title">All-terrain vehicle
+                            online marketplace.</div>
+                        <div class="promo-subtitle">Available soon.</div>
+                        <div class="promo-text">In Russia, we joke that we have no roads. We have directions.
+                            <br>Therefore, we make the best all-terrain vehicles in the world.
+                            <br>And you can buy them at Anywhere marketplace.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-footer">
+                <p>Center Internet Technologies LLC.
+                    <br>Russian Federation, Moscow Region.
+                    <br>PSRN # 1197746691812 </p>
+                <p>© 2020. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>
